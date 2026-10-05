@@ -1,26 +1,31 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Home from "./pages.Home";
-import Collection from "./pages/collection";
-import About from "./pages/about";
-import Contact from "./pages/contact";
+import Navbar from "./components/Navbar";
+import HomeTemp from "./pages/HomeTemp";
+import CollectionTemp from "./pages/CollectionTemp";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import LatestCollection from "./components/LatestCollection";
-import OurPolicy from "./components/OurPolicy"; 
 import BestSeller from "./components/BestSeller";
+import OurPolicy from "./components/OurPolicy";
+import Footer from "./components/Footer";   
+
+
+
+
+
 
 
 function App(){
     return(
         <BrowserRouter>
-        <Navbar/>
+        <Navbar/> 
             <Routes>
                 <Route path="/"
-                    element={<Home/>}>
+                    element={<HomeTemp/>}>
                 </Route>
 
                 <Route path="/collection"
-                    element={<Collection/>}>
+                    element={<CollectionTemp/>}>
                 </Route>
 
                 <Route path="/about"

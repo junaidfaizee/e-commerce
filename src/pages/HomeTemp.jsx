@@ -1,5 +1,5 @@
 import hero_img from "../assets/hero_img.png";
-function Home() {
+function HomeTemp() {
   return (
     <section className="container mt-2"><div
   className="row g-0 align-items-stretch"
@@ -55,4 +55,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeTemp;
