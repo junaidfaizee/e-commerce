@@ -1,6 +1,9 @@
+
+
 function About(){
     return(
-        <div className="page">
+        <div>
+        
             <h1>About us</h1>
             <p>
                 welcome to Forever.we provide
